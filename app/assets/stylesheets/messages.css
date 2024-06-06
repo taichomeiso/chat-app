@@ -37,13 +37,13 @@
   overflow: scroll;
 }
 
-.room-number {
+.room-name {
   padding: 20px 20px 40px 20px;
 
 }
 
 
-.room-number a{
+.room-name a{
   color: white;
   text-decoration: none;
 
