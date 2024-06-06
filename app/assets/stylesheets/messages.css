@@ -116,7 +116,7 @@
   margin-bottom: 40px;
 }
 
-.message-form {
+.form {
   height: 90px;
   background-color: #DDDDDD;
   padding: 20px 40px;
@@ -128,7 +128,7 @@
   display: flex;
 }
 
-.message-input {
+.form-message {
   border: none;
   height: 50px;
   width: 100%;
