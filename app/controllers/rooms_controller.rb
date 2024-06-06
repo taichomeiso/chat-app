@@ -4,9 +4,8 @@ class RoomsController < ApplicationController
   end
 
   def create
-    # binding.pry
     @room = Room.new(room_params)
-    if @room.active_storage_overview
+    if @room.save
       redirect_to root_path
     else
       render :new, status: :unprocessable_entity
